@@ -94,7 +94,7 @@ public class AutoLoginPlugin extends Plugin
 		}
 		catch (Throwable t)
 		{
-			log.warn("Native bridge test failed: {}", t.getMessage());
+			log.warn("Native bridge test failed: {}f", t.getMessage());
 			return false;
 		}
 	}
